@@ -48,7 +48,7 @@ We can then aggregate the results from the simulation and calculate a 95% interv
 
 ![gross_profit_range](https://github.com/tonytsoi/montecarlo_forecast/blob/main/assets/gross_profit_range.png?raw=true)
 
-By incorporating Monte Carlo Simulation in financial forecasting, the business management would have a better gauge about the likely range that the future profits would fall into, conditional on the initial assumptions of growth rate and volatility.
+By incorporating Monte Carlo Simulation in financial forecasting, the business management would have a better gauge about the likely range that the future profits would fall into, conditional on the initial assumptions of growth rate and volatility. The growth rate and volatility assumptions can be the historical data or the figures of any comparable businesses, and can be adjusted if it is expected that the future growth rates would differ from the historical ones.
 
 We can also add more complexity to our model by introducing more randomness. Let’s assume that the variable cost margin follows a normal distribution with a mean of 10% and a standard deviation of 5%. As we can see from the charts, introducing more randomness into the model would lead to the profit prediction being more volatile.
 
