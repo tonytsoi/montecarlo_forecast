@@ -21,7 +21,7 @@ A slightly more sophisticated model would be the Geometric Brownian Motion (GBM)
 
 The below equation defines the GBM model.
 
-<img src="https://render.githubusercontent.com/render/math?math=\Large S_t = S_0(exp(\mu - \sigma^2/2)t - \sigma\times W_t)">
+<img src="https://render.githubusercontent.com/render/math?math=\Large S_t = S_{0}\, exp((\mu - \sigma^2/2)t - \sigma\times W_t)">
 
 <img src="https://render.githubusercontent.com/render/math?math=\large W_t"> is the Brownian motion term, in which <img src="https://render.githubusercontent.com/render/math?math=\large W_t - W_{t-1} = sqrt(dt)Z_t"> and <img src="https://render.githubusercontent.com/render/math?math=\large Z_t"> is an independent standard normal variable.
 
@@ -29,7 +29,7 @@ The below equation defines the GBM model.
 
 The GBM model can also be written in an iterative form.
 
-<img src="https://render.githubusercontent.com/render/math?math=\Large S_t = S_{t-1}(exp(\mu - \sigma^2/2)dt - \sigma\times W_t)">
+<img src="https://render.githubusercontent.com/render/math?math=\Large S_t = S_{t-1}\, exp((\mu - \sigma^2/2)dt - \sigma \, sqrt(dt) Z_t">
 
 The below chart shows 10 simulations of the GBM model with <img src="https://render.githubusercontent.com/render/math?math=\large S_0 = 1, \mu = 0.05, \sigma = 0.2">
 
