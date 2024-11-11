@@ -4,3 +4,5 @@ Business management would often like to make predictions about the future perfor
 Nevertheless, the drawback of this type of financial model is that we do not know how likely each scenario would happen. In other words, no probability is assigned to these scenarios. A probabilistic approach in modelling the business performance might provide more insight and help management make better decisions.
 
 In <a href="https://medium.com/@tsoiyingkit/application-of-monte-carlo-simulation-in-financial-forecasting-1ddb231080f9">this article</a>, I discuss the approach of using Monte Carlo Simulation in business performance analysis, and how to implement in Python.
+
+![random_walk](https://github.com/tonytsoi/montecarlo_forecast/blob/main/assets/random_walk.png?raw=true)
